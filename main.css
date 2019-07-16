@@ -42,6 +42,7 @@ body {
     height: 100vh;
     font-family: 'compagnonlight';
     overflow: hidden;
+    background-color: white;
 }
 
 #texte {
