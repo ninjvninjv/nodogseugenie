@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: 'compagnonlight';
+    src: url('compagnon-light-webfont.woff2') format('woff2'),
+         url('compagnon-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ouroborosregular';
+    src: url('ouroboros-webfont.woff2') format('woff2'),
+         url('ouroboros-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+
+@font-face {
+    font-family: 'compagnonbold';
+    src: url('compagnon-bold-webfont.woff2') format('woff2'),
+         url('compagnon-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#titre{
+    font-family: 'compagnonbold';
+    font-size: 4.5vw;
+    position: absolute;
+    top: 0vh;
+    width: 90vw;
+    
+    right: 0;
+}
+    
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'compagnonlight';
+    overflow: hidden;
+}
+
+#texte {
+    width: 90vw;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    padding-right: 5vw;
+    position: absolute;
+    bottom: 8vh;
+}
+
+#texte p {
+    display: inline-block;
+    margin: 0;
+    font-size: 2vw;
+    width: inherit;
+}
+
+#texte span {
+    display: inline-block;
+}
+.manege {
+    position: absolute;
+    font-size: 5vw;
+    left: 5vw;
+    margin: 0;
+    transform: translateY(2.5vh);
+} 
+
+#one {
+    top: 3vh
+}
+
+#two {
+    top: 12vh
+}
+
+#three {
+    top: 21vh
+    
+}
+
+#fore {
+    top: 30vh
+    
+}
+
+#five {
+    top: 39vh
+    
+}
+
+#six {
+    top: 48vh
+    
+}
+
+#seven {
+    top: 57vh
+    
+}
+
+#eight {
+    top: 66vh
+    
+}
+
+#nine {
+    top: 75vh
+    
+}
+
+#ten {
+    top: 84vh
+    
+}
+
+
+
+.fleur:hover + .texte {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: translateY(2.5vh) translateX(0.5vh);}
+  25% {-webkit-transform: translateY(2.5vh) translateX(-0.5vh);}
+  50% {-webkit-transform: translateY(2.5vh) translateX(0.5vh);}
+  75% {-webkit-transform: translateY(2.5vh) translateX(-0.5vh);}
+  100% {-webkit-transform: translateY(2.5vh) translateX(0.5vh);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-webkit-transform: translateY(2.5vh) translateX(0.5vh);}
+  25% {-webkit-transform: translateY(2.5vh) translateX(-0.5vh);}
+  50% {-webkit-transform: translateY(2.5vh) translateX(0.5vh);}
+  75% {-webkit-transform: translateY(2.5vh) translateX(-0.5vh);}
+  100% {-webkit-transform: translateY(2.5vh) translateX(0.5vh);}
+}
+
+@keyframes wiggle {
+  0% {-webkit-transform: translateX(0.5vh);}
+  25% {-webkit-transform: translateX(-0.5vh);}
+  50% {-webkit-transform: translateX(0.5vh);}
+  75% {-webkit-transform: translateX(-0.5vh);}
+  100% {-webkit-transform: translateX(0.5vh);}
+}
